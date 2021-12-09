@@ -15,7 +15,7 @@ describe('ProductCard', () => {
     expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
-  test('should increment the counter', () => {
+  test('should increment the counter :D', () => {
     const wrapper = renderer.create(
       <ProductCard product={product1}>
         {({ count, increaseBy }) => (
