@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle should show the component correctly with personalized image 1`] = `
+<img
+  alt="Product"
+  className="productImg "
+  src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+/>
+`;
+
+exports[`ProductTitle should show the component with product image 1`] = `
+<div
+  className="productCard "
+>
+  <img
+    alt="Product"
+    className="productImg "
+    src="./coffee-mug.png"
+  />
+</div>
+`;
